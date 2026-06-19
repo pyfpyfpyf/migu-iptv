@@ -23,7 +23,7 @@ jobs:
       - name: Generate static files
         env:
           APP_VERSION: '2600000900'
-          MIGU_SERVER: 'https://pyfpyfpyf-migu-iptv.hf.space'
+          MIGU_SERVER: 'http://xxx.xxx.xxx'
         run: go run main.go generate docs
 
       - name: Commit and push
