@@ -1,0 +1,7 @@
+# Binaries
+migu-server
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db
