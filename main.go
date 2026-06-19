@@ -509,8 +509,12 @@ func runServer() {
 	http.HandleFunc("/hntv.php", hntvHandler)
 	http.HandleFunc("/iptv", iptvHandler)
 	http.HandleFunc("/tvm3u8", tvm3u8Handler)
-	srv := &http.Server{Addr: ":8080"}
-	fmt.Println("服务启动，监听 :8080")
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	srv := &http.Server{Addr: ":" + port}
+	fmt.Printf("服务启动，监听 :%s\n", port)
 	_ = srv.ListenAndServe()
 }
 
@@ -559,7 +563,7 @@ func generateStaticFiles(outputDir string) error {
 		// 解析频道类型和ID
 		var playURL string
 		if strings.Contains(rawURL, "migu.php") {
-			// 咪咕频道
+			// 咪咕频道：使用中转服务（GitHub Actions 海外IP无法直接获取咪咕播放地址）
 			u, err := url.Parse(rawURL)
 			if err != nil {
 				fmt.Printf("解析URL失败: %s, err: %v\n", rawURL, err)
@@ -569,15 +573,14 @@ func generateStaticFiles(outputDir string) error {
 			if id == "" {
 				continue
 			}
-			realURL, err := handleMiguMainRequest(id, nil)
-			if err != nil {
-				fmt.Printf("获取咪咕播放地址失败: id=%s, err: %v\n", id, err)
-				continue
+			miguServer := os.Getenv("MIGU_SERVER")
+			if miguServer == "" {
+				miguServer = "http://xxx.xxx.xxx"
 			}
-			playURL = realURL
-			fmt.Printf("✓ 咪咕 %s (id=%s)\n", name, id)
+			playURL = fmt.Sprintf("%s/migu.php?id=%s", miguServer, id)
+			fmt.Printf("✓ 咪咕(中转) %s (id=%s)\n", name, id)
 		} else if strings.Contains(rawURL, "hntv.php") {
-			// 芒果TV频道
+			// 芒果TV频道：GitHub Actions 可以直接获取真实播放地址
 			u, err := url.Parse(rawURL)
 			if err != nil {
 				fmt.Printf("解析URL失败: %s, err: %v\n", rawURL, err)
