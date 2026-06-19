@@ -1,0 +1,25 @@
+services:
+  migu-iptv:
+    build: .
+    image: migu-iptv:latest
+    container_name: migu-iptv
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - APP_VERSION=2600034600
+      # 自动从咪咕API获取频道列表（根据部署地区自动获取对应地方频道）
+      # 部署在广东地区将自动获取广东地方频道，部署在江苏则获取江苏频道
+      # - MIGU_AUTO_FETCH=true
+      # 高清认证（可选，取消注释并填入你的值）
+      # - MIGU_USER_ID=your_user_id
+      # - MIGU_USER_TOKEN=your_user_token
+    volumes:
+      # 挂载频道列表，方便更新后无需重新构建
+      - ./migu_plist.txt:/app/migu_plist.txt:ro
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080/iptv"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s

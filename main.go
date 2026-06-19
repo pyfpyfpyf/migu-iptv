@@ -41,11 +41,13 @@ var (
 )
 
 func init() {
+	noProxy := func(*http.Request) (*url.URL, error) { return nil, nil }
 	tr := &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 		MaxIdleConns:        100,
 		MaxIdleConnsPerHost: 100,
 		IdleConnTimeout:     90 * time.Second,
+		Proxy:               noProxy,
 	}
 	proxyClient = &http.Client{
 		Transport: tr,
@@ -53,17 +55,15 @@ func init() {
 	}
 }
 
-// saltTable "2600000900"
+// saltTable 每个版本对应的盐值
 func saltTable(ver string) string {
 	switch ver {
-	case "2600000900":
-		return "b3bdac8bf67042f2965d92d9c1437053"
+	case "2600034600":
+		return "2cac4f2c6c3346a5b34e085725ef7e33"
 	case "2600037000":
-		return "7c8ddcab45b340ecbb02bc979c7f58c8"
-	case "2600053000":
-		return "a119e1fbdc7c467f915648206c72d917"
+		return "3ce941cc3cbc40528bfd1c64f9fdf6c0"
 	default:
-		return "b3bdac8bf67042f2965d92d9c1437053"
+		return "2cac4f2c6c3346a5b34e085725ef7e33"
 	}
 }
 
@@ -95,13 +95,12 @@ func md5Hex(s string) string {
 }
 
 func urlSign(md5string string, ver string) (string, string, error) {
-	salt, err := rand.Int(rand.Reader, big.NewInt(90000000))
+	salt, err := rand.Int(rand.Reader, big.NewInt(1000000))
 	if err != nil {
 		return "", "", err
 	}
-	saltint := int(salt.Int64())
-	saltint = saltint / 100 * 100
-	saltstr := fmt.Sprintf("%08d", saltint)
+	// 新版盐值格式：随机6位数字 + "25"
+	saltstr := fmt.Sprintf("%06d", salt.Int64()) + "25"
 	salttable := saltTable(ver)
 	text := md5string + salttable + "migu" + saltstr[:4]
 	sign := md5Hex(text)
@@ -119,9 +118,11 @@ func getSignConfig(contID string, appVersion string) (string, string, string, er
 }
 
 func sendGetRequest(reqURL string, headers map[string]string) (string, error) {
+	noProxy := func(*http.Request) (*url.URL, error) { return nil, nil }
 	tr := &http.Transport{
 		TLSClientConfig:   &tls.Config{InsecureSkipVerify: true},
 		DisableKeepAlives: true,
+		Proxy:             noProxy,
 	}
 	client := &http.Client{Transport: tr, Timeout: 10 * time.Second}
 	req, err := http.NewRequest("GET", reqURL, nil)
@@ -144,9 +145,11 @@ func sendGetRequest(reqURL string, headers map[string]string) (string, error) {
 }
 
 func getRedirectURL(reqURL string, headers map[string]string) (string, error) {
+	noProxy := func(*http.Request) (*url.URL, error) { return nil, nil }
 	tr := &http.Transport{
 		TLSClientConfig:   &tls.Config{InsecureSkipVerify: true},
 		DisableKeepAlives: true,
+		Proxy:             noProxy,
 	}
 	client := &http.Client{
 		CheckRedirect: func(req *http.Request, via []*http.Request) error {
@@ -264,7 +267,7 @@ func handleMiguMainRequest(id string, cred *authCred) (string, error) {
 	var reqURL string
 	appVersion := os.Getenv("APP_VERSION")
 	if strings.TrimSpace(appVersion) == "" {
-		appVersion = "2600000900"
+		appVersion = "2600034600"
 	}
 	tm, salt, sign, err := getSignConfig(id, appVersion)
 	if err != nil {
@@ -280,8 +283,9 @@ func handleMiguMainRequest(id string, cred *authCred) (string, error) {
 		"User-Agent":             "Dalvik%2F2.1.0+%28Linux%3B+U%3B+Android+15%3B+V2227A+Build%2FAP3A.240905.015.A2%29",
 		"MG-BH":                  "true",
 		"appVersion":             appVersion,
+		"appCode":                "miguvideo_default_android",
 		"Phone-Info":             "V2227A",
-		"X-UP-CLIENT-CHANNEL-ID": "2600053000-99000-20160001001" + chidstr,
+		"X-UP-CLIENT-CHANNEL-ID": appVersion + "-99000-20160001001" + chidstr,
 		"APP-VERSION-CODE":       "260530009",
 		"Accept":                 "*/*",
 		"Connection":             "keep-alive",
@@ -294,7 +298,7 @@ func handleMiguMainRequest(id string, cred *authCred) (string, error) {
 		headers["userToken"] = cred.UserToken
 		headers["userId"] = cred.UserID
 	}
-	reqURL = fmt.Sprintf("https://play.miguvideo.com/playurl/v1/play/playurl?audio=false&contId=%s&dolby=true&multiViewN=2&h265=true&os=13&ott=true&rateType=%d&salt=%s&sign=%s&timestamp=%s&ua=V2227A&vr=true", id, rateType, salt, sign, tm)
+	reqURL = fmt.Sprintf("https://play.miguvideo.com/playurl/v1/play/playurl?sign=%s&rateType=%d&contId=%s&timestamp=%s&salt=%s&flvEnable=true&super4k=true&h265N=true", sign, rateType, id, tm, salt)
 	raw := ""
 	for {
 		body, err := sendGetRequest(reqURL, headers)
@@ -319,7 +323,7 @@ func handleMiguMainRequest(id string, cred *authCred) (string, error) {
 			}
 			delete(headers, "userId")
 			delete(headers, "userToken")
-			reqURL = fmt.Sprintf("https://play-pre.miguvideo.com/playurl/v1/play/playurl?audio=false&contId=%s&dolby=true&multiViewN=2&h265=true&os=13&ott=true&rateType=%d&salt=%s&sign=%s&timestamp=%s&ua=V2227A&vr=true", id, rateType, salt, sign, tm)
+			reqURL = fmt.Sprintf("https://play-pre.miguvideo.com/playurl/v1/play/playurl?sign=%s&rateType=%d&contId=%s&timestamp=%s&salt=%s&flvEnable=true&super4k=true&h265N=true", sign, rateType, id, tm, salt)
 			continue
 		}
 		break

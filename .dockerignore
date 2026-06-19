@@ -1,0 +1,22 @@
+# Git
+.git
+.gitignore
+.github
+
+# Binaries
+*.exe
+migu-server
+
+# Documentation
+docs/
+README.md
+main.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore

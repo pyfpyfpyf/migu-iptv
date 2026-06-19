@@ -2,13 +2,11 @@ FROM golang:1.21-alpine AS builder
 WORKDIR /app
 COPY go.mod ./
 COPY main.go ./
-COPY migu_plist.txt ./
-RUN go build -o migu-server main.go
+RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o migu-server main.go
 
-FROM alpine:latest
-WORKDIR /app
+FROM scratch
 COPY --from=builder /app/migu-server .
-COPY --from=builder /app/migu_plist.txt .
-EXPOSE 10000
-ENV PORT=10000
+COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+COPY migu_plist.txt .
+EXPOSE 8080
 CMD ["./migu-server"]
