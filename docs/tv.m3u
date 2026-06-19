@@ -1,19 +1,237 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="咪咕专线",CCTV1
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608807420
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="咪咕专线",CCTV2
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=631780532
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" group-title="咪咕专线",CCTV3
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=624878271
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="咪咕专线",CCTV4
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=631780421
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="咪咕专线",CCTV5
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=641886683
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" group-title="咪咕专线",CCTV5+
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=641886773
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" group-title="咪咕专线",CCTV6
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=624878396
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" group-title="咪咕专线",CCTV7
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=673168121
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" group-title="咪咕专线",CCTV8
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=624878356
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="咪咕专线",CCTV9
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=673168140
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" group-title="咪咕专线",CCTV10
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=624878405
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="咪咕专线",CCTV11
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=667987558
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" group-title="咪咕专线",CCTV12
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=673168185
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="咪咕专线",CCTV13
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608807423
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" group-title="咪咕专线",CCTV14
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=624878440
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="咪咕专线",CCTV15
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=673168223
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="咪咕专线",CCTV17
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=673168256
+#EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" group-title="咪咕专线",CCTV4欧洲
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608807419
+#EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" group-title="咪咕专线",CCTV4美洲
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608807416
+#EXTINF:-1 tvg-id="CGTN外语纪录" tvg-name="CGTN外语纪录" group-title="咪咕专线",CGTN外语纪录
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609006487
+#EXTINF:-1 tvg-id="CGTN***语" tvg-name="CGTN***语" group-title="咪咕专线",CGTN***语
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609154345
+#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" group-title="咪咕专线",CGTN西班牙语
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609006450
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="咪咕专线",CGTN法语
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609006476
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="咪咕专线",CGTN俄语
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609006446
+#EXTINF:-1 tvg-id="老故事" tvg-name="老故事" group-title="咪咕专线",老故事
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=884121956
+#EXTINF:-1 tvg-id="中学生" tvg-name="中学生" group-title="咪咕专线",中学生
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=708869532
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="咪咕专线",CGTN
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609017205
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="咪咕专线",东方卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=651632648
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="咪咕专线",江苏卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=623899368
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" group-title="咪咕专线",广东卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608831231
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" group-title="咪咕专线",江西卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=783847495
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" group-title="咪咕专线",河南卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=790187291
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" group-title="咪咕专线",陕西卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=738910838
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="咪咕专线",大湾区卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608917627
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" group-title="咪咕专线",湖北卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=947472496
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" group-title="咪咕专线",吉林卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=947472500
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" group-title="咪咕专线",青海卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=947472506
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" group-title="咪咕专线",东南卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=849116810
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" group-title="咪咕专线",海南卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=947472502
+#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" group-title="咪咕专线",海峡卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=849119120
+#EXTINF:-1 tvg-id="中国农林卫视" tvg-name="中国农林卫视" group-title="咪咕专线",中国农林卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956904896
+#EXTINF:-1 tvg-id="**卫视" tvg-name="**卫视" group-title="咪咕专线",**卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956923145
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" group-title="咪咕专线",辽宁卫视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=630291707
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" group-title="咪咕专线",上海新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=651632657
+#EXTINF:-1 tvg-id="上视东方影视" tvg-name="上视东方影视" group-title="咪咕专线",上视东方影视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=617290047
+#EXTINF:-1 tvg-id="南京新闻综合频道" tvg-name="南京新闻综合频道" group-title="咪咕专线",南京新闻综合频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=838109047
+#EXTINF:-1 tvg-id="南京教科频道" tvg-name="南京教科频道" group-title="咪咕专线",南京教科频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=838153729
+#EXTINF:-1 tvg-id="南京十八频道" tvg-name="南京十八频道" group-title="咪咕专线",南京十八频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=838151753
+#EXTINF:-1 tvg-id="江苏城市频道" tvg-name="江苏城市频道" group-title="咪咕专线",江苏城市频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626064714
+#EXTINF:-1 tvg-id="江苏国际" tvg-name="江苏国际" group-title="咪咕专线",江苏国际
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626064674
+#EXTINF:-1 tvg-id="江苏教育" tvg-name="江苏教育" group-title="咪咕专线",江苏教育
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=628008321
+#EXTINF:-1 tvg-id="江苏影视频道" tvg-name="江苏影视频道" group-title="咪咕专线",江苏影视频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626064697
+#EXTINF:-1 tvg-id="江苏综艺频道" tvg-name="江苏综艺频道" group-title="咪咕专线",江苏综艺频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626065193
+#EXTINF:-1 tvg-id="公共新闻频道" tvg-name="公共新闻频道" group-title="咪咕专线",公共新闻频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626064693
+#EXTINF:-1 tvg-id="盐城新闻综合" tvg-name="盐城新闻综合" group-title="咪咕专线",盐城新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731825
+#EXTINF:-1 tvg-id="淮安新闻综合" tvg-name="淮安新闻综合" group-title="咪咕专线",淮安新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731826
+#EXTINF:-1 tvg-id="泰州新闻综合" tvg-name="泰州新闻综合" group-title="咪咕专线",泰州新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731818
+#EXTINF:-1 tvg-id="连云港新闻综合" tvg-name="连云港新闻综合" group-title="咪咕专线",连云港新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731715
+#EXTINF:-1 tvg-id="宿迁新闻综合" tvg-name="宿迁新闻综合" group-title="咪咕专线",宿迁新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731832
+#EXTINF:-1 tvg-id="徐州新闻综合" tvg-name="徐州新闻综合" group-title="咪咕专线",徐州新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639731747
+#EXTINF:-1 tvg-id="优漫卡通频道" tvg-name="优漫卡通频道" group-title="咪咕专线",优漫卡通频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=626064703
+#EXTINF:-1 tvg-id="江阴新闻综合" tvg-name="江阴新闻综合" group-title="咪咕专线",江阴新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=955227979
+#EXTINF:-1 tvg-id="南通新闻综合" tvg-name="南通新闻综合" group-title="咪咕专线",南通新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=955227985
+#EXTINF:-1 tvg-id="宜兴新闻综合" tvg-name="宜兴新闻综合" group-title="咪咕专线",宜兴新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=955227996
+#EXTINF:-1 tvg-id="溧水新闻综合" tvg-name="溧水新闻综合" group-title="咪咕专线",溧水新闻综合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=639737327
+#EXTINF:-1 tvg-id="陕西银龄频道" tvg-name="陕西银龄频道" group-title="咪咕专线",陕西银龄频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956909362
+#EXTINF:-1 tvg-id="陕西都市青春频道" tvg-name="陕西都市青春频道" group-title="咪咕专线",陕西都市青春频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956909358
+#EXTINF:-1 tvg-id="陕西体育休闲频道" tvg-name="陕西体育休闲频道" group-title="咪咕专线",陕西体育休闲频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956909356
+#EXTINF:-1 tvg-id="陕西秦腔频道" tvg-name="陕西秦腔频道" group-title="咪咕专线",陕西秦腔频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956909303
+#EXTINF:-1 tvg-id="陕西新闻资讯频道" tvg-name="陕西新闻资讯频道" group-title="咪咕专线",陕西新闻资讯频道
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956909289
+#EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" group-title="咪咕专线",财富天下
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=956923159
+#EXTINF:-1 tvg-id="经典香港电影" tvg-name="经典香港电影" group-title="咪咕专线",经典香港电影
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=625703337
+#EXTINF:-1 tvg-id="抗战经典**" tvg-name="抗战经典**" group-title="咪咕专线",抗战经典**
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=617432318
+#EXTINF:-1 tvg-id="新片放映厅" tvg-name="新片放映厅" group-title="咪咕专线",新片放映厅
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=619495952
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" group-title="咪咕专线",CHC影迷电影
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=952383261
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-name="和美乡途轮播台" group-title="咪咕专线",和美乡途轮播台
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=713591450
+#EXTINF:-1 tvg-id="高清大片" tvg-name="高清大片" group-title="咪咕专线",高清大片
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=629943678
+#EXTINF:-1 tvg-id="南方影视" tvg-name="南方影视" group-title="咪咕专线",南方影视
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=614961829
+#EXTINF:-1 tvg-id="血色山河·**战争影像志" tvg-name="血色山河·**战争影像志" group-title="咪咕专线",血色山河·**战争影像志
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=713600957
+#EXTINF:-1 tvg-id="熊猫频道01高清" tvg-name="熊猫频道01高清" group-title="咪咕专线",熊猫频道01高清
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609158151
+#EXTINF:-1 tvg-id="熊猫频道1" tvg-name="熊猫频道1" group-title="咪咕专线",熊猫频道1
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608933610
+#EXTINF:-1 tvg-id="熊猫频道2" tvg-name="熊猫频道2" group-title="咪咕专线",熊猫频道2
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608933640
+#EXTINF:-1 tvg-id="熊猫频道3" tvg-name="熊猫频道3" group-title="咪咕专线",熊猫频道3
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608934619
+#EXTINF:-1 tvg-id="熊猫频道4" tvg-name="熊猫频道4" group-title="咪咕专线",熊猫频道4
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608934721
+#EXTINF:-1 tvg-id="熊猫频道5" tvg-name="熊猫频道5" group-title="咪咕专线",熊猫频道5
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608935104
+#EXTINF:-1 tvg-id="熊猫频道6" tvg-name="熊猫频道6" group-title="咪咕专线",熊猫频道6
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=608935797
+#EXTINF:-1 tvg-id="熊猫频道7" tvg-name="熊猫频道7" group-title="咪咕专线",熊猫频道7
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609169286
+#EXTINF:-1 tvg-id="熊猫频道8" tvg-name="熊猫频道8" group-title="咪咕专线",熊猫频道8
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609169287
+#EXTINF:-1 tvg-id="熊猫频道9" tvg-name="熊猫频道9" group-title="咪咕专线",熊猫频道9
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609169226
+#EXTINF:-1 tvg-id="熊猫频道10" tvg-name="熊猫频道10" group-title="咪咕专线",熊猫频道10
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609169285
+#EXTINF:-1 tvg-id="最强综艺趴" tvg-name="最强综艺趴" group-title="咪咕专线",最强综艺趴
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=629942228
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" group-title="咪咕专线",嘉佳卡通
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=614952364
+#EXTINF:-1 tvg-id="经典动画大集合" tvg-name="经典动画大集合" group-title="咪咕专线",经典动画大集合
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=629942219
+#EXTINF:-1 tvg-id="新动力量创一流" tvg-name="新动力量创一流" group-title="咪咕专线",新动力量创一流
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=713589837
+#EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" group-title="咪咕专线",环球旅游
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=958475356
+#EXTINF:-1 tvg-id="钱塘江" tvg-name="钱塘江" group-title="咪咕专线",钱塘江
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=647370520
+#EXTINF:-1 tvg-id="五环传奇" tvg-name="五环传奇" group-title="咪咕专线",五环传奇
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=707671890
+#EXTINF:-1 tvg-id="赛事最经典" tvg-name="赛事最经典" group-title="咪咕专线",赛事最经典
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=646596895
+#EXTINF:-1 tvg-id="**精英赛" tvg-name="**精英赛" group-title="咪咕专线",**精英赛
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=631354620
+#EXTINF:-1 tvg-id="体坛名栏汇" tvg-name="体坛名栏汇" group-title="咪咕专线",体坛名栏汇
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=629943305
+#EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" group-title="咪咕专线",四海钓鱼
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=637444975
+#EXTINF:-1 tvg-id="咪咕24小时体育台" tvg-name="咪咕24小时体育台" group-title="咪咕专线",咪咕24小时体育台
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=654102378
+#EXTINF:-1 tvg-id="24小时城市联赛轮播台" tvg-name="24小时城市联赛轮播台" group-title="咪咕专线",24小时城市联赛轮播台
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=915512915
+#EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" group-title="咪咕专线",武术世界
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=958475359
+#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" group-title="咪咕专线",CETV1
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=923287154
+#EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" group-title="咪咕专线",CETV2
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=923287211
+#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" group-title="咪咕专线",CETV4
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=923287339
+#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" group-title="咪咕专线",山东教育
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=609154353
+#EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" group-title="咪咕专线",中国天气
+https://pyfpyfpyf-migu-iptv.hf.space/migu.php?id=959986621
 #EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" group-title="湖南地方",湖南经视
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD04NmI1MzY4OWY5NzVkYTIwMGFlYjdlMjZlODVlMzE2Yi00ZjY4NzA0JnM9YWE3NjNhYjg3NTg5ZDNjMGM5MzA4MWI0YTZhYjM1NGImdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODc3NjU4/HNJSMPP360.m3u8
+http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD1mYmIyNTExZjNhZmEzMjcxY2VjMmE3YWYwZWY0ODczNy0zOTk3ODA4MCZzPTcwOWFlZWFiMmVlN2Q4MjA5ZGU1YTg3YWI5MDhlYmI1JnVpZD0mbmR2PXBjX2NsaWVudC1QQ3dlYl8xLjAmdj0yJmFzPTAmZXM9MTc4MTg4MTU1Ng,,/HNJSMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南都市" tvg-name="湖南都市" group-title="湖南地方",湖南都市
-http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTk0ZTc5ODIzYmYwYjk3ZTY2YjhmOTllNGM5YWUzMWI3LTRmNjg3MDQmcz1hZDIwY2U4Y2Q1MGFjNTFkOGI2NjYxMDg0MjViMWE1OCZ1aWQ9Jm5kdj1wY19jbGllbnQtUEN3ZWJfMS4wJnY9MiZhcz0wJmVzPTE3ODE5Nzg0NTk,/HNDSMPP360.m3u8
+http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTM4ZWE1YjYyOTlhYmU0N2M4NjVkY2JkZGI1MGExNGRhLTM5OTc4MDgwJnM9NThhNGEyMGZiYTk5ZmU3NWE0YTdjMDQzYzNmMDcyYTYmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxOTgyMzU2/HNDSMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" group-title="湖南地方",湖南电视剧
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD1mYWY0NGE5YWE1NjQ1NDc0MjI4MzVkZDQ2MjFjYTgzMC00ZjY4NzA0JnM9OTgwNjg4N2ZkMTE3Y2E0Mzg4YzY2YmZmYTA3NDQyYjUmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODc3NjU5/HNDSJMPP360.m3u8
+http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD0yNzk0NGFlMmRlMWE1ZTIzYjFlNjczZDMxODE1ZDYyMi0zOTk3ODA4MCZzPWU3MmE2ZDU4NDQ5ZjRlNTM4OTZkYmM2OTkyMzUxZDMxJnVpZD0mbmR2PXBjX2NsaWVudC1QQ3dlYl8xLjAmdj0yJmFzPTAmZXM9MTc4MTg4MTU1Nw,,/HNDSJMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南公共" tvg-name="湖南公共" group-title="湖南地方",湖南公共
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD1jYTJiMTY4NWU1NjhlNzI1MzRiMGNkMGQzYTQwZGUzZC00ZjY4NzA0JnM9MjQzYjI3ZmU5NGMxYjE0ZmMwY2Q4NGIwOTJhNDk3ODUmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODc3NjYw/HNGGMPP360.m3u8
+http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD01N2Q5ZDY3NDhjMWI3NDA2MTRkYmI5OTQxNDU1MDQzMi0zOTk3ODA4MCZzPTQ5OWMxZDE2MWFmM2UxZTVkNjE4NjE0NjY1YjMwM2ViJnVpZD0mbmR2PXBjX2NsaWVudC1QQ3dlYl8xLjAmdj0yJmFzPTAmZXM9MTc4MTg4MTU1Nw,,/HNGGMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南国际" tvg-name="湖南国际" group-title="湖南地方",湖南国际
-http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZuZGk9JnV1aWQ9MDFlN2YzOGI2OWNlMmE1ZGM5ZTI3MzQwMjVjMDg5MDItNGY2ODcwNCZzPWNhNWZkYmQ3ZTcyNzAwMGQyYTE3NWVlYmQ4Y2Y2ZDhlJnVpZD0mbmR2PXBjX2NsaWVudC1QQ3dlYl8xLjAmdj0yJmFzPTAmZXM9MTc4MTg3NzY2MA,,/HNGJMPP360.m3u8
+http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZuZGk9JnV1aWQ9MzA1ODk1MDRiYmNlNzhiMDBhYzRiNWMzMGZmNTlmODgtMzk5NzgwODAmcz1hNDY0NjM1ZTM2MTM0ODc1ZmUzOTAzZTYxYjBmYjYxMCZ1aWQ9Jm5kdj1wY19jbGllbnQtUEN3ZWJfMS4wJnY9MiZhcz0wJmVzPTE3ODE4ODE1NTc,/HNGJMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" group-title="湖南地方",湖南娱乐
-http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTJhNTJhN2IwMzVkMTQ4MWU1MTc4OWVhNDFjYzM5NTExLTRmNjg3MDQmcz1jMjI0ZGI5ZGMzYmZiNDBmN2Q5ZDhhNDg3OWEzMzFjNiZ1aWQ9Jm5kdj1wY19jbGllbnQtUEN3ZWJfMS4wJnY9MiZhcz0wJmVzPTE3ODE5Nzg0NjA,/HNYLMPP360.m3u8
+http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTI3YTE1YzQ4ZDg2MGNiZThlZjQ2ODJmNDQ4OGQzMGFkLTM5OTc4MDgwJnM9ODE3ZGRmM2FjNWIyZDJkNTkyMjU3MmY2ZDNiMzZlZTUmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxOTgyMzU4/HNYLMPP360.m3u8
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" group-title="湖南地方",金鹰纪实
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD1mOWE2ZmUxMGM5NWM1MzgyNmYwZjQ0NWE5YWUyZWRiNy00ZjY4NzA0JnM9MjQ1ODIwNjUzNDEyMDg1M2ViZjRjMmFjZmYyZTNjMmEmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODc3NjYx/JYJSMPP360.m3u8
+http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTMmbmRpPSZ1dWlkPTAzMjg0OTBiNTI5ZDMzYjBlYzA5MDllZjI1Y2YyNDBiLTM5OTc4MDgwJnM9NGMyZmI5MGQyMjY3NjczMzlhYTJjYzgzYjU1NDM5OTQmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODgxNTU5/JYJSMPP360.m3u8
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" group-title="湖南地方",金鹰卡通
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD05M2VmMjQ5NGVlZGFmYmJmZTBlMTBkZDEzM2NkZjZmYi00ZjY4NzA0JnM9ZDA5N2RkMTA1ZTc1NTdmODNhMGJmMmFmZGE0MjI4MzkmdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxODc3NjYy/JYKTMPP360.m3u8
+http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTFkNDQ3MWZjZTZlZDExOTA2ZWYwZDI0NTdlYWUzNTBmLTM5OTc4MDgwJnM9MmVhOWQzMDgyNmZhMGYwNGJlNTNmNmY0YWIzNDQ2MjImdWlkPSZuZHY9cGNfY2xpZW50LVBDd2ViXzEuMCZ2PTImYXM9MCZlcz0xNzgxOTgyMzU5/JYKTMPP360.m3u8
 #EXTINF:-1 tvg-id="快乐购" tvg-name="快乐购" group-title="湖南地方",快乐购
-http://phonealihd.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NC4yNDYuMTM1LjQmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1hbF9waG9uZTQmbmRpPSZ1dWlkPTFjZTY2N2RmYjE2ZGE4ZDEwZGJlNmI2ZTU3Y2RkMTM2LTRmNjg3MDQmcz0wNWZjM2ExZDdiZDE5ZDE2MTRjNDQwMGNhYjk2ZmUxOCZ1aWQ9Jm5kdj1wY19jbGllbnQtUEN3ZWJfMS4wJnY9MiZhcz0wJmVzPTE3ODE5Nzg0NjI,/KLGMPP360.m3u8
+http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZ1aXA9NTcuMTUxLjEyOC4xMjgmZGVmPTEmdGVybT0xJnFpZD0mcmF1dGhfZW5hYmxlPW9mZiZjZG5leF9pZD1xcV9waG9uZV9saXZlJm5kaT0mdXVpZD0yOWJmNzQxODUzMmFjOTE2ZDdmOWM1ZmUxZGNiNTE0OC0zOTk3ODA4MCZzPTQ4NzA0NjkwZjEzNTI1YjE4YTYyZGM2Yzk0MTY5ZGYzJnVpZD0mbmR2PXBjX2NsaWVudC1QQ3dlYl8xLjAmdj0yJmFzPTAmZXM9MTc4MTg4MTU2MA,,/KLGMPP360.m3u8
